@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+
+.divPai{
+    background-image: url(../assets/imgs/uva.png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    background-color: rgb(18, 0, 20);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(68, 14, 122);
+    border-radius: 40px;
+    width: 370px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: -5px;
+}
+
+.card h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+    margin: 50px;
+    font-weight: 50;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+
